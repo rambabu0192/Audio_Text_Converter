@@ -1,0 +1,21 @@
+# Virtual Environment
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Environment Variables
+.env
+
+# Uploaded Files
+uploads/*
+!uploads/.gitkeep
+
+# Generated Audio
+outputs/*
+!outputs/.gitkeep
+
+# Streamlit
+.streamlit/secrets.toml
